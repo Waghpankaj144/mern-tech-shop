@@ -1,0 +1,359 @@
+.img{
+    height: 100%;
+    width: 100%;
+}
+.paragraph{
+   margin:0px;
+}
+
+.add-container img{
+    /* margin: 0px; */
+    height: 100%;
+    width: 100%;
+   
+    /* background-color: yellow; */
+}
+.menu-price{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+    width: 70px;
+
+}
+
+.menu-price span{
+    font-size: 13px;
+    /* font-weight: bold; */
+    background-color:burlywood;
+    font-weight: 550;
+    margin-right: 2px;
+}
+.menu-price p{
+    font-size: 16px;
+    font-weight: 580;
+}
+
+
+.add-more-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color:orange; */
+    padding: 10px 0px;
+    margin: 20px 10px;
+}
+
+.add-more-container:hover{
+    cursor: pointer;
+}
+
+
+.add-more-img-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 20px;
+    height: 20px;
+   margin: 0px 20px 0px 10px;
+
+}
+
+
+
+.bill-summary {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: red;
+   
+}
+.bill-summary span{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    display: table;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bill-container{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFFF;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    /* margin: 5px; */
+    /* width:300px; */
+    margin: 40px 30px;
+
+}
+.bill-details{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 8px 10px;
+    margin-top: 3px;
+
+
+}
+.bill-item{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    justify-content: space-between;
+    /* background-color: yellow; */
+    width: 100%;
+}
+.bill-item p{
+    margin: auto;
+}
+.delivery-payment-details{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    background-color: #FFFF;
+    /* height: 900px; */
+    /* padding:10px; */
+    /* flex: 2; */
+    margin :0px auto;
+    width:55%;
+    box-shadow:0px 0px 3px 3px rgb(222, 222, 222);
+
+}
+
+
+.delivery-details{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: rgb(204, 198, 198); */
+    padding: 40px 10px;
+    /* height: 500px; */
+      overflow-y: scroll;
+     margin:10px;
+    
+ 
+    
+}
+.address-details{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: green; */
+    padding: 10px 20px;
+    max-width: 700px;
+    margin-top:20px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 10px;
+
+}
+
+.address-details:hover{
+    box-shadow: 0 0 6px 1px #919191;
+    cursor: pointer;
+}
+.address-type span{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.address p{
+     padding: 10px 0px 0px 0px ;
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+ #select-btn:hover{
+   cursor: pointer;
+   /* background-color: green;
+   border: 2px solid red; */
+ }
+
+.payment-details{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+
+}
+.payment-product-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+     justify-content: space-around;
+    /* background-color: orange;  */
+    border-top: 2px solid grey;
+    padding: 10px;
+    width: 100%;
+
+
+}
+.payment-product-container a{
+    text-decoration: none;
+    /* padding: 5px; */
+    background-color: #e0e0e0;
+   /* border: 2px solid red; */
+    margin: 0px 10px;
+    padding: 8px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+.payment-product-container a:hover{
+    cursor: pointer;
+    background-color: rgb(135, 136, 136);
+}
+
+.payment-product-container button{
+    padding: 0;
+   border: none;
+   background: none;
+   font-weight:bold;
+
+   font-size: 12px;
+   border: none;
+
+}
+.payment-product-container button:hover{
+    cursor: pointer;
+}
+.payment-type-container{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    /* background-color: purple; */
+    padding: 10px 15px;
+    width:100%;
+   
+}
+.payment-type-card{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    /* text-align: center; */
+    padding: auto;
+    /* background-color: red;  */
+    padding: 10px;
+    box-shadow: 0px 0px 4px 1px rgb(186, 186, 186);
+
+    
+
+}
+.payment-type-img{
+    /* background-color: green; */
+    width: 100px;
+    height: 100px;
+}
+.payment-type-card a{
+    width: 350px;
+    height: 55px;
+   
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.payment-type-card button:hover{
+    cursor: pointer;
+    
+}
+.upi-type-container{
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;  */
+    justify-content: center;
+    /* background-color: green; */
+  
+
+}
+.upi-type{
+    /* background-color: aqua; */
+    width: 10px;
+    height: 30px;
+    margin: 2px;
+   
+}
+
+.upi-type button{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color:white;
+    padding: 10px 10px 10px 25px;
+    /* margin: 40px 10px 10px 10px; */
+    font-size: 14px;
+   
+    color: black;
+    border: none;
+
+}
+.card-payment{
+    display: flex;
+    flex-direction:row;
+    align-items: center; 
+    justify-content: space-between;
+    /* text-align: center; */
+    padding: auto;
+    background-color:antiquewhite;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .cart-container {
+        flex-direction: column;
+        padding: 60px 0px;
+    }
+    .cart-item-container{
+        width: 100%;
+        padding: 2px;
+        margin: 0px;
+    }
+
+    .delivery-payment-details {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .cart-item-container {
+        height: auto;
+    }
+    .cart-item-details{
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .item-name span{
+        font-size: 16px;
+        font-weight: 580;
+    }
+
+    
+}

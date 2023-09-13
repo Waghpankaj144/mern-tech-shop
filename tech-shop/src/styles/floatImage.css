@@ -1,0 +1,38 @@
+/* ImageFloat.css */
+.image-float-container {
+    max-width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+
+  }
+  
+  .left-image {
+    float: left;
+    margin-right: 30px; /* Adjust the margin as needed */
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    
+  }
+  
+  .right-image {
+    float: right;
+    margin-left: 20px; /* Adjust the margin as needed */
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Clear the float to prevent layout issues */
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  p{
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
